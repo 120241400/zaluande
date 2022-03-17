@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*底部版权*/
+.footer{ height:148px; background:url(../images/footer/dark_bg.png) repeat-x; overflow:hidden; padding-top:10px; width:1920px;}
+.foot_div p{ text-align:center; color:#fff; line-height:25px; margin-bottom:12px;}
+.logo_div{ overflow:hidden; margin:8px 0 0 210px;}
+.comp{ float:left; margin-left:10px; _display:inline;}
+.comp p{ line-height:100%; text-align:left; margin-bottom:8px;}
+.footer a{ color:#fff;}
+.comp p span{ margin:0 5px;}
+.comp p span.m_0{ margin-left:0;}
+.bot_logo{ width:214px; height:37px; float:left; _display:inline; background:url(../images/footer/logo.png) no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="http://www.leyoo.com/Public/images/footer/logo.png"); _background:none;}

@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+body,  
+button, input, select, textarea { /* for ie */  
+    /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/  
+    font: 12px/1.5 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */  
+}  
+body,div,form,img,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+fieldset,img{border:0;}
+ul,ol,li{list-style:none;}
+textarea,input,select{font-size:12px;}
+h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight:normal;}
+:focus { outline: 0;}
+sup, sub {font-size: 100%;vertical-align: baseline;}
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea {  font-size: 100%;} /* 使得表单元素在 ie 下能继承字体大小 */
+body { font-size:12px;}
+table { border-collapse: collapse; border-spacing:0;}
+caption, th { text-align: left;}
+a:link,a:visited{ text-decoration:none;}
+a:hover,a:active{ text-decoration:underline;}
+
+/* Clear Fix */
+.clearfix:after{content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.clearfix{display: inline-block;}/* Hide from IE Mac */
+html[xmlns] .clearfix{display: block;}/* End hide from IE Mac */
+* html .clearfix{height:1%; }
+.f_left{ float:left;}
+.f_right{ float:right;}
+.cler{ clear:both;}
+body{ color:#333;}
+body,.yahei{font-family:'微软雅黑','宋体',Arial, Helvetica, sans-serif }
+.bold{ font-weight:bold;}
+.font12{ font-size:12px;}
+.font14{ font-size:14px;}
+.font16{ font-size:16px;}
+.font18{ font-size:18px;}
+.font20{ font-size:20px;}
+
+

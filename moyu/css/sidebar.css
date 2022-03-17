@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("reset.css");
+
+/*右侧*/
+.sidebar{ width:310px;}
+.sidebar .down_game{ width:296px; height:95px;}
+.reg_div{ height:58px;}
+.reg_div dd{ width:145px; border:1px solid #ce9ca1; float:left; padding:1px; background:#fff;}
+.reg_div dd a{ background:#eddbdc; display:block; width:145px; height:55px; text-align:center; line-height:55px;}
+.reg_div dd a:hover,.reg_div dd a.hover{ text-decoration:none; background:#f3c8ca;}
+.rig_panel{ width:295px; border:1px solid #c5c5c6; background:#fff; margin-bottom:8px;}
+.nav_box{ padding-bottom:8px; margin-top:8px;}
+.nav_box a{ display:block; margin:9px 0 0 9px;  width:274px; height:75px; border:1px solid #c5c5c6;}
+.nav_box a.new_user{ background:url(../images/news/new_user.jpg) center 1px no-repeat #fff;}
+.nav_box a.game_data{ background:url(../images/news/game_data.jpg) center 1px no-repeat #fff;}
+
+/*新闻中心*/
+.rig_shadow{ background:url(../images/news/rig_shadow.png) repeat-y;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="http://www.leyoo.com/Public/images/news/rig_shadow.png"); _background:none; width:310px;}
+.rig_shadow .box{ width:295px; border:1px solid #C5C5C6; border-top:none; background:#fff;}
+.news_center dd{ background:url(../images/index/arrow.gif) 0 center no-repeat; padding-left:12px; height:36px; line-height:36px; border-bottom:1px solid #e3e3e3; margin:0 15px; overflow:hidden;}
+.news_center dd.n_border{ border-bottom:none;}
+
+.rig_bot_shadow{ background:url(../images/news/rig_bot_shadow.jpg) no-repeat; height:6px;}
+
+/*最新专题活动*/
+.z_t .box{ overflow:hidden;}
+.z_t a{ display:block; margin:10px;}
+.z_t img{ width:276px; height:89px;}
+
+/*客服专区*/
+.custom .icon{ background:url(../images/news/custom.jpg) 9px 9px no-repeat #fff; padding:85px 28px 10px 22px; overflow:hidden; width:245px;}
+.custom  a{ line-height:20px; width:50px; float:left; display:block;}
+.custom  span{ float:left; display:block; margin:0 5px 0 3px; _display:inline;}
+
+.foot_div{ width:1000px; margin:0 0 0 14px; padding-top:10px;}
