@@ -10,20 +10,15 @@
     <meta name="format-detection" content="telephone=no">
     <META name="Keywords" content="">
     <!-- Le styles -->
-    <link href="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/bootstrap.min.css" rel="stylesheet">
-    <link type="text/css" href="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/jquery-ui-1.10.0.custom.css" rel="stylesheet"/>
-    <link type="text/css" href="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/font-awesome.min.css" rel="stylesheet"/>
-    <!--[if IE 7]>
-    <link rel="stylesheet" href="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/font-awesome-ie7.min.css">
-    <![endif]-->
-    <!--[if lt IE 9]>
-    <link rel="stylesheet" type="text/css" href="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/custom-theme/jquery.ui.1.10.0.ie.css"/>
-    <![endif]-->
-    <link href="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/docs.css" rel="stylesheet">
-    <link href="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/prettify.css" rel="stylesheet">
-    <link href="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/buttons.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/layui.css?t=1505539402716" media="all">
-    <link rel="stylesheet" href="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/layui.js?t=1505539402716" media="all">
+<link rel="shortcut icon" href="https://i0.wp.com/txc.gtimg.com/data/321929/2022/0614/753996c195549cfcbad91a1f3dbe5486.png" />
+    <link href="https://www.uulucky.com/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="https://www.uulucky.com/css/custom-theme/jquery-ui-1.10.0.custom.css" rel="stylesheet"/>
+    <link href="https://www.uulucky.com/assets/css/docs.css" rel="stylesheet">
+    <link href="https://www.uulucky.com/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="https://www.uulucky.com/css/buttons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.uulucky.com/css/layui.css?t=1505539402716" media="all">
+    <link rel="stylesheet" href="https://www.uulucky.com/js/layui.js?t=1505539402716" media="all">
+
 
 </head>
 <body style="padding-top: 0px;">
@@ -84,11 +79,9 @@
     </div>
 </footer>
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/jquery-1.9.0.min.js" type="text/javascript"></script>
-<script src="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/bootstrap.min.js" type="text/javascript"></script>
-<script src="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/jquery-ui-1.10.0.custom.min.js" type="text/javascript"></script>
-<script src="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/prettify.js" type="text/javascript"></script>
-<script src="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/docs.js" type="text/javascript"></script>
+<script src="https://www.uulucky.com/assets/js/jquery-1.9.0.min.js" type="text/javascript"></script>
+<script src="https://www.uulucky.com/assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://www.uulucky.com/assets/js/jquery-ui-1.10.0.custom.min.js" type="text/javascript"></script>
 <script>
     // Accordion
     $("#menu-collapse").accordion({
@@ -97,191 +90,6 @@
         collapsible: true
     });
 </script>
-<div style="display:none;">
 
-</div>
-    <script src="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/layui.js" charset="utf-8"></script>
-    <script src="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/clipboard.min.js"></script>
-<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
-    <script src="https://zhizunwangqing.gitee.io/wangqing/gongnengye/weixinjiqiren/jquery.cookie.js" type="text/javascript"></script>
-<script>
-    if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
-        weixincallback()
-    } else {
-        if (document.addEventListener) {
-            document.addEventListener("WeixinJSBridgeReady", weixincallback, false)
-        } else {
-            if (document.attachEvent) {
-                document.attachEvent("WeixinJSBridgeReady", weixincallback);
-                document.attachEvent("onWeixinJSBridgeReady", weixincallback)
-            }
-        }
-    }
-    var platformseport=false;
-    function weixincallback() {
-        platformseport = typeof WeixinJSBridge !== "undefined" && typeof $.cookie("id") !== "undefined" && $.cookie("id") != "";
-        if (typeof WeixinJSBridge !== "undefined" && (typeof $.cookie("id") === "undefined" || $.cookie("id") == "")) {
-            window.location.href = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx35736230acce851c&redirect_uri=" + encodeURIComponent("https://www.uulucky.com/f/redi.php?url=" + encodeURIComponent(window.location.href)) + "&response_type=code&scope=snsapi_base&state=123#wechat_redirect ";
-        }
-    }
-    function getQueryString(name) {
-        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
-        var r = window.location.search.substr(1).match(reg);
-        if (r != null) return unescape(r[2]); return null;
-    }
-    if(getQueryString('token')!==null) {
-        window.history.pushState({}, 0, 'https://' + window.location.host+GetUrlRelativePath());
-    }
-    function GetUrlRelativePath()
-    {
-        var url = document.location.toString();
-        var arrUrl = url.split("//");
-        var start = arrUrl[1].indexOf("/");
-        var relUrl = arrUrl[1].substring(start);
-        if(relUrl.indexOf("?") != -1){
-            relUrl = relUrl.split("?")[0];
-        }
-        return relUrl;
-    }
-    layui.use(['layer', 'form', 'element','jquery'], function(){
-        var layer = layui.layer;
-    });
-    var clipboard = new Clipboard('.buyvip');
-    clipboard.on('success', function(e) {
-        if($('.buyvip').attr('href')=='javascript:void(0);'){
-            layer.msg("激活码已复制！");
-        }
-    });
-    clipboard.on('error', function(e) {
-        layer.msg("please press Ctrl/Cmd+C to copy");
-    });
-    function jsApiCall(type='qun')
-    {
-        layer.msg("正在生成订单~");
-        $.ajax({
-            url: "/pay.php?type="+type,
-            dataType: "json",
-            success: function(b) {
-                WeixinJSBridge.invoke(
-                    'getBrandWCPayRequest',
-                    b.api,
-                    function(res){
-                        if(res.err_msg == "get_brand_wcpay_request:ok") { //支付成功后
-                            layer.msg("购买成功");
-                            $('.buyvip').attr('href','javascript:void(0);');
-                            $('.buyvip').attr('data-clipboard-text',b.code);
-                            $('.buyvip').html('码：'+b.code+' 点击复制');
-                        }
-                    }
-                );
-            }
-        });
-    }
-
-    function buyvip(type)
-    {
-        if (typeof WeixinJSBridge == "undefined"){
-            layer.msg("微P");
-            if( document.addEventListener ){
-                document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
-            }else if (document.attachEvent){
-                document.attachEvent('WeixinJSBridgeReady', jsApiCall);
-                document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
-            }
-        }else{
-            jsApiCall(type);
-        }
-    }
-    wx.config({
-        debug: false,
-        appId: 'wx35736230acce851c',
-        timestamp: 1554998132,
-        nonceStr: 'DFFgRzuBfGb4SQkp',
-        signature: 'a76f910b8318925dcd024454df06669f5edd3a9a',
-        jsApiList: [
-            'checkJsApi',
-            'onMenuShareTimeline',
-            'onMenuShareAppMessage'
-        ]
-    });
-    wx.ready(function () {
-        var shareData = {
-            title: '微器人',
-            desc: '欢迎~',
-            link: 'https://www.yunthink.cn/',
-            imgUrl: 'https://www.yunthink.cn/images/000.jpg'
-        };
-        wx.onMenuShareAppMessage(shareData);
-        wx.onMenuShareTimeline(shareData);
-    });
-    wx.error(function (res) {
-    });
-</script>
-
-    <!-- Event snippet for yunthink conversion page
-    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-    <script>
-        function gtag_report_conversion(url) {
-            var callback = function () {
-                if (typeof(url) != 'undefined') {
-                    window.location = url;
-                }
-            };
-            gtag('event', 'conversion', {
-                'send_to': 'AW-825039882/drw6CLy0xXsQiri0iQM',
-                'event_callback': callback
-            });
-            return false;
-        }
-    </script>
-
-    <script>
-        var sdkksfdc=Math.ceil(Math.random() * 10000);
-        layui.use('layer', function(){ //独立版的layer无需执行这一句
-            var $ = layui.jquery, layer = layui.layer; //独立版的layer无需执行这一句
-            //触发事件
-            var active = {
-                offset: function(othis){
-                    var type = othis.data('type')
-                        ,text = othis.text();
-                    ref = setInterval(function () {
-                        $.ajax({
-                            url: '/ggck?str='+sdkksfdc+'&cc='+Math.random(),
-                            dataType: 'json',
-                            error: function () {
-                            },
-                            success: function (res) {
-                                if(res.msg=='ok'){
-                                    gtag_report_conversion();
-                                    int = window.clearInterval(ref);
-                                }
-                            }
-                        });
-                    }, 1000);
-                    layer.open({
-                        type: 1
-                        ,offset: type
-                        ,area: '280px;'
-                        ,id: 'layerDemo'+type //防止重复弹出
-                        ,content: '<div style="width:280px; height:280px;"><img id="sma" onload="$('#sma').attr('src','https://www.noperfect.cn/portal/wxmsg/erweima?str='+sdkksfdc+'');" style="width:280px;" src="https://pic.uulucky.com/han/chuli05.png" /></div>'
-                        ,btn: '关闭'
-                        ,btnAlign: 'c' //按钮居中
-                        ,shade: 0.8 //不显示遮罩
-                        ,yes: function(){
-                            int = window.clearInterval(ref);
-                            layer.closeAll();
-                        }
-                        ,cancel: function(index, layero){
-                            int = window.clearInterval(ref);
-                        }
-                    });
-                }
-            };
-            $('.layui-btn-yun').on('click', function(){
-                var othis = $(this), method = othis.data('method');
-                active[method] ? active[method].call(this, othis) : '';
-            });
-        });
-    </script>
 </body>
 </html>
