@@ -38,7 +38,7 @@ a:hover{color:#cf2218;}
 .sec_man{width:780px;}
 
 .mod_slide{}
-.mod_newstab{width:490px;position: relative;background:url("btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;border:1px #3b1113 solid;}
+.mod_newstab{width:490px;position: relative;background:url("https://zaluande.vercel.app/moyu/qihang/btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;border:1px #3b1113 solid;}
 .newtabs{height: 44px;border-bottom: 0;background:url("btn_normal.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_normal.png*/ repeat;}
 .newtabs p{width:65px;height: 44px;line-height: 44px;color:#eab26f;font-size: 14px;text-align: center;cursor: pointer;}
 .newtabs p.on{color:#c82d2d;background:url("btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;}
