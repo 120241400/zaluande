@@ -1,0 +1,214 @@
+@charset "utf-8";
+/*
+ * 黑暗之光官网css
+ *
+ */
+
+/* hazg Used
+================================================================================================= */
+body{color:#45506e;cursor:default;}
+a{color:#45506e;}
+a:hover{color:#cf2218;}
+/*a:visited{color:#959595;}*/
+
+/*bg*/
+.wrapbg{position: relative;min-width:1030px;min-height:2000px;background:#f9f4ec url("bgbottom.jpg")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bgbottom.jpg*/ no-repeat bottom center;}
+.wrapbg_top{background: url("bgtop.jpg")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bgtop.jpg*/ no-repeat top center;min-width:1030px;}
+/*header nav
+.header{height: 542px}
+.nav_div{width:1024px;margin:0 auto;}
+.nav{height: 112px;}
+.nav a{width:130px;height: 108px;float: left ;overflow: hidden;line-height: 500em}
+.nav .nav_logo{width:206px;}*/
+
+/*header nav*/
+.header{height:542px}
+.nav_div{width:1010px;margin:0 auto;}
+.nav{height: 112px;padding:0 10px;}
+.nav a{width:130px;height: 108px;float: left ;overflow: hidden;/*line-height: 500em*/}
+.nav .nav_logo{width:206px;}
+.nav a .nav_text1{height: 25px;line-height:25px;text-align:center;font-family:Microsoft YaHei;font-size:18px;margin-top:46px;color:#BE2D21;}
+.nav a .nav_text2{height: 16px;line-height:16px;text-align:center;font-family:Microsoft YaHei;font-size:12px;color:#D6AC82;}
+.nav a:hover .nav_text1{color:#FC985C;}
+.nav a:hover .nav_text2{color:#fff;}
+
+/*content*/
+.content{width:1024px;}
+/*sec_man*/
+.sec_man{width:780px;}
+
+.mod_slide{}
+.mod_newstab{width:490px;position: relative;background:url("btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;border:1px #3b1113 solid;}
+.newtabs{height: 44px;border-bottom: 0;background:url("btn_normal.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_normal.png*/ repeat;}
+.newtabs p{width:65px;height: 44px;line-height: 44px;color:#eab26f;font-size: 14px;text-align: center;cursor: pointer;}
+.newtabs p.on{color:#c82d2d;background:url("btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;}
+.newcoms{border: #441919 solid 1px;border-top:0px;height: 265px;}
+.newcom_box{padding:13px 10px;}
+.newcom_more{position: absolute;color:#bb4e54;font-size: 14px;top:0;right:0;padding:8px 10px}
+.newcom_more:hover{color:#fff;}
+.new_top{text-align: center;background:url("btn_normal.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_normal.png*/ repeat;width:420px;height:50px;line-height:50px;margin:0 auto;}
+.new_top a{font-family:Microsoft YaHei;font-size:16px;color:#eab26f;}
+.new_top a:hover{color:#fff;}
+.newcom_box .new_list{margin:10px 7px;}
+.newcom_box .new_list li{line-height:26px;border-bottom:1px dashed #4e2b2b;}
+.newcom_box .new_list li a{width: 400px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;-o-text-overflow：ellipsis}
+
+.part_data{margin:10px 0 0;}
+/*.part_data .mod{background: #eee;height: 240px;}*/
+.part_data .mhd{font-size: 18px;color:#45516f;padding:8px 0 8px 24px;}
+.datatabs{height: 38px;background:url("tab_bg.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg.png*/ no-repeat -200px bottom;border-bottom: 0;position:relative;}
+.datatabs p{float:left;width:89px;height: 38px;color:#f7ab65;font-size: 14px;text-align: center;line-height: 38px;cursor: pointer;}
+.datatabs p.on{background: url("tab_bg_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg_on.png*/ repeat;color:#421d1f;}
+.part_data .mhdmore {font-size: 14px}
+.mod_strategy{width: 385px;height:234px;position: relative;background: url("btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;}
+.strategytabs{height: 38px;background:url("tab_bg.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg.png*/ no-repeat -200px bottom;border-bottom: 0}
+.strategytabs p{float:left;width:89px;height: 38px;color:#f7ab65;font-size: 14px;text-align: center;line-height: 38px;cursor: pointer;}
+.strategytabs p.on{background: url("tab_bg_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg_on.png*/ repeat;color:#421d1f;}
+.mod_strategy .new_list{margin:20px 17px;}
+.mod_strategy .new_list li{line-height:26px;border-bottom:1px dashed #5c3436;}
+.mod_border{border:1px #dcdcdc solid;height:198px;background:#eee;}
+
+.new_tit{color:#c5a99c;}
+.new_tit:hover{color:#c82d2d;}
+.new_tit .tit_label{color:#654444;}
+.new_list .new_date{color:#664444;}
+
+.mod_data{width:385px;height:234px;background: url("btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;}
+.mod_data .mhd{background: url("mod_dataicon.png")/*tpa=http://www.myximu.com:82/img.dwstatic.com/dtszj/dtsimg/mod_dataicon.png*/ no-repeat left center;}
+.data_list{padding:16px 14px;}
+.data_item{border-bottom:#492021 dashed 1px;line-height: 25px;color:#c5a99c;padding:5px 0 0px;}
+.data_item strong{background:#481f1f;padding:0 7px 0 8px; font-weight:normal;color:#eab26f;}
+.data_item div{float:right;width:230px;}
+.data_item a{padding:0 11px;color:#c5a99c;}
+.data_item a:hover{color:#eab26f;}
+
+.mod_photab{margin: 20px 0;height:230px;position: relative;}
+.mod_photab .new_list{padding:20px 20px;}
+.pic_tabs{height: 40px;background:url("tab_bg.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg.png*/ repeat;border-bottom: 0}
+.pic_tabs p{width:89px;height: 40px;color:#dbdddf;font-size: 14px;text-align: center;line-height: 38px;cursor: pointer;}
+.pic_tabs p.on{color:#421d1f;background: url("tab_bg_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg_on.png*/ repeat bottom;}
+.video_tabs p{width:155px;color:#eab26f;}
+.video_tabs p.on{background:none;}
+.pic_coms{}
+.piccom_boxmore{position: absolute;color:#45516f;font-size: 14px;right:0px;top:0;padding:13px 10px;}
+.pic_coms .pic_list{padding-top:10px;}
+.pic_coms li{margin: 0 0px 0 4px}
+.piccom_box .pic_list a{position: relative;display:block;overflow: hidden;width: 190px;height: 180px;}
+.piccom_box .pic_list a img{width:100%;height:100%;}
+.piccom_box .pic_list a:hover em{top:0;}
+.piccom_box .pic_list em{background:#1d2436 url("pic_hover.png")/*tpa=http://www.myximu.com:82/img.dwstatic.com/dtszj/dtsimg/pic_hover.png*/ no-repeat center;opacity: 0.7;filter:alpha(opacity=70);-moz-opacity:0.7;position: absolute;top:180px;left:0;width: 190px;height: 180px;
+	-webkit-transition: all 0.3s ease ;
+	-moz-transition: all 0.3s ease ;
+	-o-transition: all 0.3s ease ;
+	-ms-transition: all 0.3s ease ;
+	transition: all 0.3s ease ;}
+/*sec_side*/
+.sec_side{width: 238px;min-height:1150px;margin-top:-73px;background:url("sec_slide_bg.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/sec_slide_bg.png*/ no-repeat top;}
+.mod_stat_div{width:172px;height:150px;margin:0 auto;}
+
+/*开始游戏CSS3效果*/
+.mod_stat{margin:0 auto;text-align:center;position:relative;}/*position:relative;*/
+.StatNewGame{display:inline-block;color:#fbba6d;text-align: center;width:100%;height:150px;}
+.StatNewGame:hover{color:#ccc}
+
+/*下载按钮*/
+.mod_load{width:201px;padding-top:57px;margin:0 auto;}
+.mod_load a{float:left;width:201px;height:50px;line-height:50px;margin-top:16px;display:inline-block;background:url("load.jpg")/*tpa=http://www.myximu.com:82/04/s/newGW/img/load.jpg*/ no-repeat;text-align:center;font-family:Microsoft YaHei;font-size:16px;font-weight:bold;color:#542c17;}
+.mod_load a:hover{color:#892525}
+
+
+/*服务器列表*/
+.mod_serverlist{width:201px;height: 252px;margin:0 auto;}
+.mod_serverlist .mhd{height: 58px;line-height:58px;text-align:center;font-family:Microsoft YaHei;font-size:16px;color:#9e2224;background:url("black_bg.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/black_bg.png*/ no-repeat center;}
+.server_fast{line-height: 27px;height:38px }
+.server_fasttit{color:#c5a99c;padding:0 5px 0 5px;}
+.server_fastipt{width: 55px;height: 25px;line-height: 25px;border:0;padding:0 5px;text-align: right;background: #2a0e0e;color:#c5a99c;margin: 1px 2px 0 0}
+.server_fastbtn{width: 69px;height: 27px;background: url("server_fastbtn.png")/*tpa=http://www.myximu.com:82/img.dwstatic.com/dtszj/dtsimg/server_fastbtn.png*/ no-repeat;color:#ffe6b5;text-align: center;cursor: pointer;}
+.server_list{padding:0 12px 16px;}
+.server_list a{display: block;border-bottom:#333a4b dashed 1px;color:#99a4c1;}
+.server_list span{width: 80px;padding: 0 0 0 40px;}
+.server_list em{color:#ffb44f;}
+.server_list a:hover{color:#ffb44f;};
+.server_list a:visited{color:#bfbfbf;}
+.server_choose{width: 152px;height: 37px;background: url("server_choose.gif")/*tpa=http://www.myximu.com:82/04/s/newGW/img/server_choose.gif*/ no-repeat;overflow: hidden;line-height: 500em;margin: 0 auto;cursor: pointer;}
+.mod_pay{
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+}
+.mod_pay a{display: block;background: url("recharge.jpg")/*tpa=http://www.myximu.com:82/04/s/newGW/img/recharge.jpg*/ no-repeat;width: 201px;height: 55px;line-height:55px;margin:0 auto;text-align:center;font-family:Microsoft YaHei;font-size:18px;font-weight:bold;color:#472f21;}
+.mod_gift{width:201px;margin:0 auto;}
+.mod_gift a{float:left;display: block;background: url("link_bg.jpg")/*tpa=http://www.myximu.com:82/04/s/newGW/img/link_bg.jpg*/ no-repeat;height: 50px;line-height:50px;width: 201px;text-align:center;color:#ffcdab;font-family:Microsoft YaHei;font-size:16px;margin-top:10px;}
+.mod_gift a:hover{color:#fff;}
+.mod_mt{margin-top:10px;}
+.mod_kf{width:201px;margin:0 auto;color:#6b7c8c;padding:5px 0 0;}
+.mod_kf .mhd{height: 58px;line-height:58px;text-align:center;font-family:Microsoft YaHei;font-size:16px;color:#9e2224;background:url("black_bg.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/black_bg.png*/ no-repeat center;}
+.mod_kf p{margin:0 8px 0 15px;line-height:24px;color:#c5a99c;border-bottom:1px #241711 dashed;}
+.mod_kf a{color:#eab26f;}
+.mod_kf a:hover{color:#fff;}
+
+
+/*mod.slide.s2.css*/
+.mod-slide-s2{width:280px;height:310px;border:#381012 solid 1px;}
+.mod-slide-s2 .mod-slide-content{width:100%;height:310px;}
+.mod-slide-s2 .mod-slide-content ul{width:100%;}
+.mod-slide-s2 .mod-slide-content ul li{width:100%;position:relative;}
+.mod-slide-s2 .mod-slide-content a, .mod-slide-s2 .mod-slide-content img{width:100%;height:310px;}/*height:100%;*/
+.mod-slide-s2 .mod-slide-content .trans{position:absolute;width:100%;height:40px;left:0px;bottom:0px;display:inline-block;z-index:2;background:#000;filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity: 0.6;opacity: 0.6;}
+.mod-slide-s2 .mod-slide-content .text{position:absolute;width:100%;height:40px;line-height:40px;left:0px;bottom:0px;display:inline-block;z-index:3;text-align:left;color:#ffffff;}
+.mod-slide-s2 .mod-slide-content .text span{padding-left:20px;}
+.mod-slide-s2 .mod-slide-trigger li{cursor:pointer;float:left;margin-left:5px;width:15px;height:10px;line-height:40px;text-align:center;background:#93484e;color:#333}
+.mod-slide-s2 .mod-slide-trigger li.selected{width:30px;height:10px;margin-top:-1px;font-weight:700;background-color:#fec28e;color:#fff}
+
+
+/*inner*/
+.inner{}
+.inner_hd{background: url("btn_normal.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_normal.png*/ repeat-x;border-bottom: 0 ;height: 40px;line-height: 40px;padding: 0 0 0 34px;color:#c5a99c;font-family:"宋体";}
+.inner_hd span{color:#eab26f;}
+.inner_hd a{color:#c5a99c;}
+.inner_hd a:hover{color:#f7ab65;}
+.inner_list{padding: 32px 26px}
+.inner_list li{border-bottom:#cfb9b5 dashed 1px;line-height: 36px;padding: 0 10px}
+.inner_list li a{color:#2c1010;}
+.inner_list li a:hover{color:#c82d2d;}
+.inner_list li .list_time{color:#9a7f7f;}
+.inner_main{background: #ffffff;min-height: 1035px;border:1px #dcdcdc solid;}
+.article_content{
+	padding-right: 0;
+	padding-bottom: 30px;
+	padding-left: 0;
+	padding-top: 0px;
+}
+
+.box-border{position:relative;}
+
+.mod-carousel-s2{width:100%;height:165px;padding:10px 0 0 0;}
+.mod-carousel-s2-bd{height:150px;}
+.mod-carousel-s2 .mod-pic li{width:180px;height:150px;margin:0px 2px;}
+.mod-carousel-s2 .mod-pic em{padding:0px;}
+.mod-carousel-s2 .mod-pic img{border:0px;}
+.mod-carousel-s2 .btn-prev, .mod-carousel-s2 .btn-next{top:-28px;}
+.mod-carousel-s2 .steps{top:-30px;right:85px;}
+.mod-carousel-s2 .curr-step{color:#f7ab65;}
+.mod-carousel-s2 .btn-prev{width:30px;height:20px;background:url("bg_imagescroll.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bg_imagescroll.png*/ 0 0;right:40px;}
+.mod-carousel-s2 .btn-next{width:30px;height:20px;background:url("bg_imagescroll.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bg_imagescroll.png*/ 31px 0;}
+
+/*swf*/
+#btnswf{position: absolute;top:375px;left:50%;margin-left:290px;}
+.StatNewGameswf{position: absolute;left: 0;width: 165px;height: 160px;line-height:250px;overflow:hidden;display: block;top:465px;left:50%;margin-left:310px;z-index: 10}
+#bgswf{position: absolute;top:0px;left:50%;margin-left:-960px;width:100%;min-width:1020px;overflow:hidden;}
+
+
+/*页尾样式*/
+.footer{width:100%;min-width:1040px;height:166px;text-align:center;cursor:default;margin: 120px auto 0}
+.footer_div{width:1040px;margin:0 auto;}
+.footerLogo{float:left;margin-top:65px;}
+.footerLogo2{float:left;margin-top:65px;border-left:1px #333 solid;padding-left:20px;}
+.footer_content{float:right;width:695px;text-align:left;margin-top:40px;}
+.footer_content div,.footer_content div a{color:#555;font-size:12px;font-family: "SimSun";line-height:21px;}
+.footer_content div a{text-decoration: none;}
+.footer_content div a:hover{color:#000;}
+.footer_content .footer_pd{margin-left:-3px;}
+.footer_content .footer_pd a,.footer_content .footer_pd span{padding:0 3px}
+.ml{margin-left:26px;}
