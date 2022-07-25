@@ -12,8 +12,8 @@ a:hover{color:#cf2218;}
 /*a:visited{color:#959595;}*/
 
 /*bg*/
-.wrapbg{position: relative;min-width:1030px;min-height:2000px;background:#f9f4ec url("https://zaluande.vercel.app/moyu/qihang/bgtop.jpg")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bgbottom.jpg*/ no-repeat bottom center;}
-.wrapbg_top{background: url("bgtop.jpg")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bgtop.jpg*/ no-repeat top center;min-width:1030px;}
+.wrapbg{position: relative;min-width:1030px;min-height:2000px;background:#f9f4ec url("https://zaluande.vercel.app/moyu/qihang/bgtop.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bgbottom.jpg*/ no-repeat bottom center;}
+.wrapbg_top{background: url("https://zaluande.vercel.app/moyu/qihang/bgtop.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bgtop.jpg*/ no-repeat top center;min-width:1030px;}
 /*header nav
 .header{height: 542px}
 .nav_div{width:1024px;margin:0 auto;}
