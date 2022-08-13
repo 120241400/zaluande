@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            忘情ckplayer播放器
+        </title>
+        <meta name="keywords" content="flv,mp4,rtmp,html5,m3u8,播放器,视频流,网页视频播放器,dkvplayer,ckplayer官网"
+        />
+        <meta name="description" content="ckplayer支持的视频格式：http协议的flv,mp4,m3u8及rtmp协议 "
+        />
+        <meta name="author" content="ckplayer" />
+        <meta name="copyright" content="http://120241400.com" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <script type="text/javascript" src="http://zhizunwangqing.gitee.io/zaluan/888/ckplayer/ckplayer.js">
+        </script>
+    </head>
+
+<style>
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select{margin:0;padding:0}
+</style>
+</head>
+
+    <body>
+        <div class="video" style="width: 100%; height: 100%;">
+        </div>
+        <script type="text/javascript">
+            //获取地址栏里传递过来的视频地址
+            function getUrlParam(name) {
+                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+                var r = window.location.search.substr(1).match(reg); //匹配目标参数
+                if (r != null) return unescape(r[2]);
+                return null; //返回参数值
+            }
+            var Url = getUrlParam('url');
+            var hls = getUrlParam('hls');
+            var videoObject = {
+                container: 'video',
+                variable: 'player',
+                video: Url
+            };
+            if (hls != null) {
+                videoObject['html5m3u8'] = true;
+            }
+            var player = new ckplayer(videoObject);
+        </script>
+<body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false" style="overflow-y:hidden;">
+<div class="huiv"></div>
+<script type="text/javascript">var huiid = ""; </script>
+<script type="text/javascript" src="http://zhizunwangqing.gitee.io/zaluan/888/ckplayer/player.js" charset="utf-8"></script>
+</body>    </body>
+</html>

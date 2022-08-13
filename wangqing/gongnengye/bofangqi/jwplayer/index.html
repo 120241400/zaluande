@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>jwplayer播放器</title>
+    <script src="//cdn.jsdelivr.net/npm/cdnbye@latest"></script>
+    <script src="//ssl.p.jwpcdn.com/player/v/8.0.11/jwplayer.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/cdnbye@latest/dist/jwplayer.hlsjs.provider.min.js"></script>
+<style type="text/css">body, html, #jwplayer{padding: 0;margin: 0;width: 100%;height: 100%;background-color:#000;}</style>
+</head>
+<body oncontextmenu="return false" onselectstart="return false" style="overflow-y:hidden;">
+<div id="jwplayer"></div>
+<script>
+function _get(name){
+     var result = location.search.match(new RegExp("[\?\&]" + name+ "=([^\&]+)","i"));
+     if(result == null || result.length < 1){
+         return "";
+     }
+     return decodeURIComponent(result[1])
+}
+    jwplayer.key = "uoW6qHjBL3KNudxKVnwa3rt5LlTakbko9e6aQ6VUyKQ=";
+    jwplayer('jwplayer').setup({
+        file: _get('url'),
+        width: '100%',
+        height: '100%',
+        autostart: true,
+        hlsjsConfig: {
+            debug: false,
+            p2pConfig: {
+                logLevel: true,
+                live: false,
+            }
+        },
+    });
+    jwplayer().on('play', function () {
+        jwplayer().hls.p2pEngine.on('stats', function ({totalHTTPDownloaded, totalP2PDownloaded}) {
+        })
+    })
+</script>
+<script>
+        window.onload = function(){
+            document.onkeydown = function (){
+                var e = window.event || arguments[0];
+                //F12
+                if(e.keyCode == 123){
+                    return false;
+                //Ctrl+Shift+I
+                }else if((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)){
+                    return false;
+                //Shift+F10
+                }else if((e.shiftKey) && (e.keyCode == 121)){
+                    return false;
+                //Ctrl+U
+                }else if((e.ctrlKey) && (e.keyCode == 85)){
+                    return false;
+                }
+            };
+            document.oncontextmenu = function (){
+                return false;
+            }
+        }
+</script>
+
+</body>
+</html>

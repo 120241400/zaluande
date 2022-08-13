@@ -1,0 +1,136 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" href="http://zhizunwangqing.gitee.io/wangqing/gongnengye/qianruerweima/style.css">
+	</head>
+	<script src="http://zhizunwangqing.gitee.io/wangqing/gongnengye/qianruerweima/jquery-3.3.1.min.js"></script>
+	<script src="http://zhizunwangqing.gitee.io/wangqing/gongnengye/qianruerweima/qrcode.min.js"></script>
+	<style> 
+	.outer-container {
+            position: relative;
+            overflow: hidden;
+        }
+	.outer-erweima{
+		width: 180px;
+		height: 180px;
+		padding: 10px;
+		background-color: #fff;
+		position: absolute;
+		right:-230px;
+		top:100px;
+	}
+	.outer-erweima img{
+		width: 100%;
+		height: 100%;
+	}
+	.outer-erweima p{
+		font-size: 16px;
+		color: #FE7796;
+		line-height:25px;
+		font-weight: 700;
+		text-align: center;
+		position: absolute;
+		bottom:-70px;
+	}
+	</style>
+	<script>
+		p_url = '';
+		function get_url_param(name){
+			var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+			var r = window.location.search.substr(1).match(reg);
+			if (r!=null) return unescape(r[2]); return null;
+		}
+		
+		function makeCode () {
+			
+			console.log(111);
+		    //url去掉intro
+		    var url = get_url_param('dest_url').replace(/&intro=[^&]*/,'');
+		    $.ajax({
+		        url:'//api.cmsv5.iyunzk.com/tools/getShortUrl',
+		        data: { long_url: url},
+		        type: 'POST',
+		        success: function (data) {
+					console.log(data);
+		            qrcode.makeCode(data);
+		        }
+		    });
+		}
+		
+		// 监控iframe内的url变化,并重新反馈到父级页面的url上
+		function iframe_load(){
+			document.getElementById('my_frame').contentDocument.onclick = function () {
+				var iframe_url = document.getElementById("my_frame").contentWindow.location.href
+					console.log(iframe_url);
+					var new_p_url = location.origin + location.pathname + '?dest_url=' + encodeURIComponent(iframe_url);
+					// 制作二维码
+					if( p_url != new_p_url){
+						p_url = new_p_url;
+						history.pushState({}, '', p_url);
+						makeCode();
+					}
+			}
+			makeCode();
+		}
+	</script>
+	<body class="outer-containe" style="background: rgb(246, 246, 246)">
+		<div style=" position: relative; width: 400px; margin:0 auto;">
+			<div id="qrcode" class="outer-erweima" style="">
+				<p>电脑端部分功能无法使用请使用手机浏览器打开</p>
+			</div>
+			
+		</div>
+		<iframe id="my_frame" src="" style="width: 400px;" frameborder="0" marginWidth="0" marginHeight="0" onload="iframe_load()"></iframe>
+		<div id="icp_div" style="text-align: center;font-size: 12px; line-height: 26px;">
+			<a href="http://www.beian.miit.gov.cn" target="_blank" style="color: #000000;text-decoration: none;"><span id="icp"></span></a>
+		</div>	
+	
+	</body>
+	
+	<script>
+		var dest_url = get_url_param('dest_url');
+		
+		var UA = window.navigator.userAgent.toLowerCase();
+		var isAndroid = UA.indexOf('android') > 0;
+		var isIOS = /iphone|ipad|ipod|ios/.test(UA);
+		if (isAndroid || isIOS) {
+			location.href = dest_url;
+		}
+		var left = 0;
+		if(document.documentElement.clientWidth > 400){
+			left = (document.documentElement.clientWidth-400) /2
+		}
+		
+		$('#my_frame').attr('src', dest_url);
+		$('#my_frame').css('height', document.documentElement.clientHeight-20);
+		$('#my_frame').css('margin-left', left);
+		var qrcode = new QRCode(document.getElementById("qrcode"), {
+		    width : 200,
+		    height : 200
+		});
+		
+		// 获取icp信息
+		$(document).ready(function(){
+			var icp = '';
+			var i = 0;
+			var timer = setInterval(function(){
+			var storage = localStorage.getItem('siteInfo');
+			console.log(storage);
+			i++;
+			if(storage){
+				icp = JSON.parse(localStorage.getItem('siteInfo')).data.config.icp
+				console.log(icp);
+				$('#icp').html(icp);
+				clearInterval(timer);
+			}else if(i>20){
+				clearInterval(timer);
+			}
+			}, 500);
+		});
+		
+		
+		
+	</script>
+</html>

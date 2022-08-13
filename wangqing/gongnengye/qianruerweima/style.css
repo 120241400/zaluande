@@ -1,0 +1,23 @@
+::-webkit-scrollbar{display:none}
+html,body{ margin: 0; padding: 0;}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+a{text-decoration:none;color:#000}
+a,label,button,input,select{-webkit-tap-highlight-color:rgba(0,0,0,0)}
+img{border:0}
+body{background:#f4f5f7;color:#666}
+html,body,div,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,p,blockquote,pre,button,fieldset,form,input,legend,textarea,th,td{margin:0;padding:0}
+a{text-decoration:none;color:#08acee}
+button{outline:0}
+img{border:0}
+button,input,optgroup,select,textarea{margin:0;font:inherit;color:inherit;outline:none}
+li{list-style:none}
+a{color:#666}
+.aui-box1{overflow:hidden;padding:10px 0;background-color:#FFF;position:relative; box-shadow: 5px 5px 5px #f1f1f1;}
+.aui-fanhui{width:90px;height:90px;position:absolute;left:.5rem;top:.5rem}
+.aui-fanhui img{ width: 100%;}
+.aui-ss1{ width: 100%; height:90px;}
+.icon_search1{text-align:center;line-height:2rem; font-size: 38px; line-height: 90px;}
+.aui-zanwuneirong{ width:400px;height: aotu; margin: 40% auto;}
+.reflesh{ display: block; width: 280px; height:80px; background: none; border:2px solid #fe6a0a; color: #fe6a0a; border-radius: 20px; margin: 0 auto; font-size: 35px;}
+.aui-zanwuneirong p{ text-align: center; font-size: 30px; color: #ccc; line-height: 90px;}
+.aui-zanwuneirong img{ display: block; width: 100%;}
