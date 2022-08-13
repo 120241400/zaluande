@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        name="viewport" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>
+            在线电台-忘情影视
+        </title>
+        <script src="http://zhizunwangqing.gitee.io/zaluan/888/heiding4/jquery.min.js"
+        type="text/javascript">
+        </script>
+        <link href="http://zhizunwangqing.gitee.io/zaluan/888/heiding4/style.css"
+        rel="stylesheet">
+    </head>
+    
+    <body style="overflow-y:hidden;">
+        <style>
+            #lines .line{ color:#FFF; }
+        </style>
+        <!-- 默认线路 -->
+        <div id="a1" class="player">
+            <div style="margin:-5px auto;width:100%;height:100%;">
+                <iframe id="WANG" scrolling="no" frameborder="0" border="0" marginwidth="0"
+                marginheight="0" allowfullscreen="true" scrolling="no" src="http://zhizunwangqing.gitee.io/quanwangyingshi/shipin/gongju/fenlei/heiyuandiantai/"
+                width="100%" height="100%">
+                </iframe>
+            </div>
+            <!-- 切换线路 -->
+            <div id=lines style="margin:-30px black;text-align: center;">
+                <ul>
+                   <a target="_blank" href="https://ximalaya.com/">
+                        <li class="line" data-url="">
+                            喜马拉雅
+                        </li>
+                    </a>
+                    <a target="_blank" href="https://fm.qq.com/">
+                        <li class="line" data-url="">
+                            企鹅FM
+                        </li>
+                    </a>
+                    <a target="_blank" href="https://qingting.fm/">
+                        <li class="line" data-url="">
+                            蜻蜓FM
+                        </li>
+                    </a>
+                    <a target="_blank" href="http://www.tingban.cn/">
+                        <li class="line" data-url="">
+                            考拉FM
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                function(url) {
+                    $('#WANG').attr('src', decodeURIComponent(decodeURIComponent(url))).show();
+                }
+            </script>
+            <!-- 颜色 -->
+            <script>
+                $(function() {
+                    $(".line:first").css({
+                        "margin-color": "#ff0",
+                        "color": "#ff0"
+                    }) $(".line").click(function() {
+                        $(".line").css({
+                            "margin-color": "#fff",
+                            "color": "#fff"
+                        });
+                        $(this).css({
+                            "margin-color": "#ff0",
+                            "color": "#ff0"
+                        })
+                    })
+
+                })
+            </script>
+            <!-- 切换颜色 -->
+            <script>
+                function playlist(a) {
+                    var MV = document.getElementById("WANG");
+                    MV.src = a.id;
+                    MV.play();
+                }
+            </script>
+            <script>
+                function GetQueryString(name) {
+                    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                    var r = window.location.search.substr(1).match(reg);
+                    if (r != null) return unescape(r[2]);
+                    return null;
+                }
+            </script>
+        </div>
+    </body>
+
+</html>
