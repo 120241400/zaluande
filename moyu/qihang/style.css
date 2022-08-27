@@ -12,8 +12,8 @@ a:hover{color:#cf2218;}
 /*a:visited{color:#959595;}*/
 
 /*bg*/
-.wrapbg{position: relative;min-width:1030px;min-height:2000px;background:#f9f4ec url("https://zaluande.vercel.app/moyu/qihang/bgtop.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bgbottom.jpg*/ no-repeat bottom center;}
-.wrapbg_top{background: url("https://zaluande.vercel.app/moyu/qihang/bgtop.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bgtop.jpg*/ no-repeat top center;min-width:1030px;}
+.wrapbg{position: relative;min-width:1030px;min-height:2000px;background:#f9f4ec url("https://za.120241400.com/moyu/qihang/bgtop.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bgbottom.jpg*/ no-repeat bottom center;}
+.wrapbg_top{background: url("https://za.120241400.com/moyu/qihang/bgtop.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bgtop.jpg*/ no-repeat top center;min-width:1030px;}
 /*header nav
 .header{height: 542px}
 .nav_div{width:1024px;margin:0 auto;}
@@ -38,15 +38,15 @@ a:hover{color:#cf2218;}
 .sec_man{width:780px;}
 
 .mod_slide{}
-.mod_newstab{width:490px;position: relative;background:url("https://zaluande.vercel.app/moyu/qihang/btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;border:1px #3b1113 solid;}
-.newtabs{height: 44px;border-bottom: 0;background:url("https://zaluande.vercel.app/moyu/qihang/btn_normal.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_normal.png*/ repeat;}
+.mod_newstab{width:490px;position: relative;background:url("https://za.120241400.com/moyu/qihang/btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;border:1px #3b1113 solid;}
+.newtabs{height: 44px;border-bottom: 0;background:url("https://za.120241400.com/moyu/qihang/btn_normal.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_normal.png*/ repeat;}
 .newtabs p{width:65px;height: 44px;line-height: 44px;color:#eab26f;font-size: 14px;text-align: center;cursor: pointer;}
-.newtabs p.on{color:#c82d2d;background:url("https://zaluande.vercel.app/moyu/qihang/btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;}
+.newtabs p.on{color:#c82d2d;background:url("https://za.120241400.com/moyu/qihang/btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;}
 .newcoms{border: #441919 solid 1px;border-top:0px;height: 265px;}
 .newcom_box{padding:13px 10px;}
 .newcom_more{position: absolute;color:#bb4e54;font-size: 14px;top:0;right:0;padding:8px 10px}
 .newcom_more:hover{color:#fff;}
-.new_top{text-align: center;background:url("https://zaluande.vercel.app/moyu/qihang/btn_normal.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_normal.png*/ repeat;width:420px;height:50px;line-height:50px;margin:0 auto;}
+.new_top{text-align: center;background:url("https://za.120241400.com/moyu/qihang/btn_normal.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_normal.png*/ repeat;width:420px;height:50px;line-height:50px;margin:0 auto;}
 .new_top a{font-family:Microsoft YaHei;font-size:16px;color:#eab26f;}
 .new_top a:hover{color:#fff;}
 .newcom_box .new_list{margin:10px 7px;}
@@ -56,14 +56,14 @@ a:hover{color:#cf2218;}
 .part_data{margin:10px 0 0;}
 /*.part_data .mod{background: #eee;height: 240px;}*/
 .part_data .mhd{font-size: 18px;color:#45516f;padding:8px 0 8px 24px;}
-.datatabs{height: 38px;background:url("https://zaluande.vercel.app/moyu/qihang/tab_bg.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg.png*/ no-repeat -200px bottom;border-bottom: 0;position:relative;}
+.datatabs{height: 38px;background:url("https://za.120241400.com/moyu/qihang/tab_bg.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg.png*/ no-repeat -200px bottom;border-bottom: 0;position:relative;}
 .datatabs p{float:left;width:89px;height: 38px;color:#f7ab65;font-size: 14px;text-align: center;line-height: 38px;cursor: pointer;}
-.datatabs p.on{background: url("https://zaluande.vercel.app/moyu/qihang/tab_bg_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg_on.png*/ repeat;color:#421d1f;}
+.datatabs p.on{background: url("https://za.120241400.com/moyu/qihang/tab_bg_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg_on.png*/ repeat;color:#421d1f;}
 .part_data .mhdmore {font-size: 14px}
 .mod_strategy{width: 385px;height:234px;position: relative;background: url("btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;}
 .strategytabs{height: 38px;background:url("tab_bg.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg.png*/ no-repeat -200px bottom;border-bottom: 0}
 .strategytabs p{float:left;width:89px;height: 38px;color:#f7ab65;font-size: 14px;text-align: center;line-height: 38px;cursor: pointer;}
-.strategytabs p.on{background: url("https://zaluande.vercel.app/moyu/qihang/tab_bg_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg_on.png*/ repeat;color:#421d1f;}
+.strategytabs p.on{background: url("https://za.120241400.com/moyu/qihang/tab_bg_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg_on.png*/ repeat;color:#421d1f;}
 .mod_strategy .new_list{margin:20px 17px;}
 .mod_strategy .new_list li{line-height:26px;border-bottom:1px dashed #5c3436;}
 .mod_border{border:1px #dcdcdc solid;height:198px;background:#eee;}
@@ -73,7 +73,7 @@ a:hover{color:#cf2218;}
 .new_tit .tit_label{color:#654444;}
 .new_list .new_date{color:#664444;}
 
-.mod_data{width:385px;height:234px;background: url("https://zaluande.vercel.app/moyu/qihang/btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;}
+.mod_data{width:385px;height:234px;background: url("https://za.120241400.com/moyu/qihang/btn_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_on.png*/ repeat;}
 .mod_data .mhd{background: url("mod_dataicon.png")/*tpa=http://www.myximu.com:82/img.dwstatic.com/dtszj/dtsimg/mod_dataicon.png*/ no-repeat left center;}
 .data_list{padding:16px 14px;}
 .data_item{border-bottom:#492021 dashed 1px;line-height: 25px;color:#c5a99c;padding:5px 0 0px;}
@@ -84,9 +84,9 @@ a:hover{color:#cf2218;}
 
 .mod_photab{margin: 20px 0;height:230px;position: relative;}
 .mod_photab .new_list{padding:20px 20px;}
-.pic_tabs{height: 40px;background:url("https://zaluande.vercel.app/moyu/qihang/tab_bg.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg.png*/ repeat;border-bottom: 0}
+.pic_tabs{height: 40px;background:url("https://za.120241400.com/moyu/qihang/tab_bg.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg.png*/ repeat;border-bottom: 0}
 .pic_tabs p{width:89px;height: 40px;color:#dbdddf;font-size: 14px;text-align: center;line-height: 38px;cursor: pointer;}
-.pic_tabs p.on{color:#421d1f;background: url("https://zaluande.vercel.app/moyu/qihang/tab_bg_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg_on.png*/ repeat bottom;}
+.pic_tabs p.on{color:#421d1f;background: url("https://za.120241400.com/moyu/qihang/tab_bg_on.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/tab_bg_on.png*/ repeat bottom;}
 .video_tabs p{width:155px;color:#eab26f;}
 .video_tabs p.on{background:none;}
 .pic_coms{}
@@ -96,14 +96,14 @@ a:hover{color:#cf2218;}
 .piccom_box .pic_list a{position: relative;display:block;overflow: hidden;width: 190px;height: 180px;}
 .piccom_box .pic_list a img{width:100%;height:100%;}
 .piccom_box .pic_list a:hover em{top:0;}
-.piccom_box .pic_list em{background:#1d2436 url("https://zaluande.vercel.app/moyu/qihang/pic_hover.png")/*tpa=http://www.myximu.com:82/img.dwstatic.com/dtszj/dtsimg/pic_hover.png*/ no-repeat center;opacity: 0.7;filter:alpha(opacity=70);-moz-opacity:0.7;position: absolute;top:180px;left:0;width: 190px;height: 180px;
+.piccom_box .pic_list em{background:#1d2436 url("https://za.120241400.com/moyu/qihang/pic_hover.png")/*tpa=http://www.myximu.com:82/img.dwstatic.com/dtszj/dtsimg/pic_hover.png*/ no-repeat center;opacity: 0.7;filter:alpha(opacity=70);-moz-opacity:0.7;position: absolute;top:180px;left:0;width: 190px;height: 180px;
 	-webkit-transition: all 0.3s ease ;
 	-moz-transition: all 0.3s ease ;
 	-o-transition: all 0.3s ease ;
 	-ms-transition: all 0.3s ease ;
 	transition: all 0.3s ease ;}
 /*sec_side*/
-.sec_side{width: 238px;min-height:1150px;margin-top:-73px;background:url("https://zaluande.vercel.app/moyu/qihang/sec_slide_bg.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/sec_slide_bg.png*/ no-repeat top;}
+.sec_side{width: 238px;min-height:1150px;margin-top:-73px;background:url("https://za.120241400.com/moyu/qihang/sec_slide_bg.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/sec_slide_bg.png*/ no-repeat top;}
 .mod_stat_div{width:172px;height:150px;margin:0 auto;}
 
 /*开始游戏CSS3效果*/
@@ -137,9 +137,9 @@ a:hover{color:#cf2218;}
 	margin-bottom: 0px;
 	margin-left: 0;
 }
-.mod_pay a{display: block;background: url("https://zaluande.vercel.app/moyu/qihang/recharge.jpg")/*tpa=http://www.myximu.com:82/04/s/newGW/img/recharge.jpg*/ no-repeat;width: 201px;height: 55px;line-height:55px;margin:0 auto;text-align:center;font-family:Microsoft YaHei;font-size:18px;font-weight:bold;color:#472f21;}
+.mod_pay a{display: block;background: url("https://za.120241400.com/moyu/qihang/recharge.jpg")/*tpa=http://www.myximu.com:82/04/s/newGW/img/recharge.jpg*/ no-repeat;width: 201px;height: 55px;line-height:55px;margin:0 auto;text-align:center;font-family:Microsoft YaHei;font-size:18px;font-weight:bold;color:#472f21;}
 .mod_gift{width:201px;margin:0 auto;}
-.mod_gift a{float:left;display: block;background: url("https://zaluande.vercel.app/moyu/qihang/link_bg.jpg")/*tpa=http://www.myximu.com:82/04/s/newGW/img/link_bg.jpg*/ no-repeat;height: 50px;line-height:50px;width: 201px;text-align:center;color:#ffcdab;font-family:Microsoft YaHei;font-size:16px;margin-top:10px;}
+.mod_gift a{float:left;display: block;background: url("https://za.120241400.com/moyu/qihang/link_bg.jpg")/*tpa=http://www.myximu.com:82/04/s/newGW/img/link_bg.jpg*/ no-repeat;height: 50px;line-height:50px;width: 201px;text-align:center;color:#ffcdab;font-family:Microsoft YaHei;font-size:16px;margin-top:10px;}
 .mod_gift a:hover{color:#fff;}
 .mod_mt{margin-top:10px;}
 .mod_kf{width:201px;margin:0 auto;color:#6b7c8c;padding:5px 0 0;}
@@ -164,7 +164,7 @@ a:hover{color:#cf2218;}
 
 /*inner*/
 .inner{}
-.inner_hd{background: url("https://zaluande.vercel.app/moyu/qihang/btn_normal.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_normal.png*/ repeat-x;border-bottom: 0 ;height: 40px;line-height: 40px;padding: 0 0 0 34px;color:#c5a99c;font-family:"宋体";}
+.inner_hd{background: url("https://za.120241400.com/moyu/qihang/btn_normal.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/btn_normal.png*/ repeat-x;border-bottom: 0 ;height: 40px;line-height: 40px;padding: 0 0 0 34px;color:#c5a99c;font-family:"宋体";}
 .inner_hd span{color:#eab26f;}
 .inner_hd a{color:#c5a99c;}
 .inner_hd a:hover{color:#f7ab65;}
@@ -191,8 +191,8 @@ a:hover{color:#cf2218;}
 .mod-carousel-s2 .btn-prev, .mod-carousel-s2 .btn-next{top:-28px;}
 .mod-carousel-s2 .steps{top:-30px;right:85px;}
 .mod-carousel-s2 .curr-step{color:#f7ab65;}
-.mod-carousel-s2 .btn-prev{width:30px;height:20px;background:url("https://zaluande.vercel.app/moyu/qihang/bg_imagescroll.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bg_imagescroll.png*/ 0 0;right:40px;}
-.mod-carousel-s2 .btn-next{width:30px;height:20px;background:url("https://zaluande.vercel.app/moyu/qihang/bg_imagescroll.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bg_imagescroll.png*/ 31px 0;}
+.mod-carousel-s2 .btn-prev{width:30px;height:20px;background:url("https://za.120241400.com/moyu/qihang/bg_imagescroll.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bg_imagescroll.png*/ 0 0;right:40px;}
+.mod-carousel-s2 .btn-next{width:30px;height:20px;background:url("https://za.120241400.com/moyu/qihang/bg_imagescroll.png")/*tpa=http://www.myximu.com:82/04/s/newGW/img/bg_imagescroll.png*/ 31px 0;}
 
 /*swf*/
 #btnswf{position: absolute;top:375px;left:50%;margin-left:290px;}
