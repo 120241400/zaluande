@@ -1,7 +1,7 @@
 var song = new Audio;
 var isStopped = true;
 var currentSong = 0;
-var playlist = ["http://lhttp.qingting.fm/live/4915/64k.mp3?/忘情一台","http://lhttp.qingting.fm/live/5022405/64k.mp3?/忘情二台","http://lhttp.qingting.fm/live/1206/64k.mp3?/忘情三台","http://lhttp.qingting.fm/live/5022308/64k.mp3?/忘情四台","http://lhttp.qingting.fm/live/4804/64k.mp3?/忘情五台","http://lhttp.qingting.fm/live/1649/64k.mp3?/忘情六台","http://lhttp.qingting.fm/live/274/64k.mp3?/忘情七台","http://lhttp.qingting.fm/live/388/64k.mp3?/忘情八台"];
+var playlist = ["http://live.ximalaya.com/radio-first-page-app/live/1011/64.m3u8?/忘情一台","http://live.ximalaya.com/radio-first-page-app/live/53/64.m3u8?/忘情二台","http://live.ximalaya.com/radio-first-page-app/live/538/64.m3u8?/忘情三台","http://live.ximalaya.com/radio-first-page-app/live/2069/64.m3u8?/忘情四台","http://live.ximalaya.com/radio-first-page-app/live/2125/64.m3u8?/忘情五台","http://live.ximalaya.com/radio-first-page-app/live/802/64.m3u8?/忘情六台","http://live.ximalaya.com/radio-first-page-app/live/608/64.m3u8?/忘情七台","http://live.ximalaya.com/radio-first-page-app/live/1739/64.m3u8?/忘情八台"];
 var playlistVisible = false;
 
 function skip(to) {
