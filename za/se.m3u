@@ -4,7 +4,7 @@
 "wallpaper":"https://api.yimian.xyz/img?type=wallpaper",
 //"wallpaper": "http://www.kf666888.cn/api/tvbox/img",
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9kb3dubG9hZC5rc3RvcmUuc3BhY2UvZG93bmxvYWQvMjg4My9QWS8xMTA4LnR4dA=="]}]}],
-"sites":[{"key":"csp_Kunyu77","name":"酷云","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
+"sites":{"key":"更多","name":"TV魔改交流①群319242030","type":1,"api":"","searchable":0,"quickSearch":0},[{"key":"csp_Kunyu77","name":"酷云","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"小苹果","name":"苹果","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
 {"key": "*酷豆","name": "*酷豆","type": 1,"api": "https://api.kdapi.info/api.php/provide/vod/","playUrl": "https://jx.kubohk.com/jx/?url=","searchable": 1,"quickSearch": 1,"filterable": 0},
 {"key": "*葡萄","name": "*葡萄","type": 1,"api": "https://api.putaozy.net/inc/apijson_vod.php","searchable": 0,"quickSearch": 0,"filterable": 0},
