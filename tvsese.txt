@@ -12,8 +12,8 @@
   ],
   "sites": [
     {
-      "key": "快播",
-      "name": "快播",
+      "key": "快播资源",
+      "name": "快播资源",
       "type": 1,
       "api": "https://www.kuaibozy.com/api.php/provide/vod/",
       "searchable": 1,
@@ -38,8 +38,8 @@
       ]
     },
     {
-      "key": "百度",
-      "name": "百度",
+      "key": "百度资源",
+      "name": "百度资源",
       "type": 1,
       "api": "https://api.apibdzy.com/api.php/provide/vod/",
       "searchable": 1,
@@ -60,7 +60,58 @@
         "剧情片",
         "战争片"
       ]
+    }，
+   {
+      "key": "闪电资源",
+      "name": "闪电资源",
+      "type": 1,
+      "api": "https://sdzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 1,
+      "categories": [
+        "动漫",
+        "国产剧",
+        "日韩剧",
+        "港台剧",
+        "欧美剧",
+        "泰剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "纪录片",
+        "综艺"
+      ]
+    }, 
+{
+      "key": "鱼乐资源",
+      "name": "鱼乐资源",
+      "type": 1,
+      "api": "https://api.yulecj.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 1,
+      "categories": [
+        "动漫",
+        "国产剧",
+        "日韩剧",
+        "港台剧",
+        "欧美剧",
+        "泰剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "纪录片",
+        "综艺"
+      ]
     }
-    
   ]
 }
