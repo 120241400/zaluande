@@ -39,9 +39,9 @@
     },
     {
       "key": "百度",
-      "name": "百度",
+      "name": "闪电资源",
       "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod/",
+      "api": "https://sdzyapi.com/api.php/provide/vod",
       "searchable": 1,
       "filterable": 0,
       "switchable": 1,
