@@ -13,7 +13,7 @@
   "sites": [
 {
       "key": "快播",
-      "name": "光速资源",
+      "name": "🏠光速资源",
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -39,7 +39,7 @@
     },
     {
       "key": "百度",
-      "name": "量子资源",
+      "name": "🏠量子资源",
       "type": 1,
       "api": "http://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -63,7 +63,7 @@
     },
   {
       "key": "哔哩",
-      "name": "哔哩哔哩",
+      "name": "⛪哔哩哔哩",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
@@ -73,7 +73,7 @@
     },
     {
       "key": "櫻花",
-      "name": "樱花动漫",
+      "name": "🏰樱花动漫",
       "type": 3,
       "api": "csp_Ying",
       "searchable": 1,
@@ -82,7 +82,7 @@
     },
     {
       "key": "巴士",
-      "name": "巴士动漫",
+      "name": "🏰巴士动漫",
       "type": 3,
       "api": "csp_Dm84",
       "searchable": 1,
@@ -91,7 +91,7 @@
     },
     {
       "key": "紙條",
-      "name": "纸条搜索",
+      "name": "🔍纸条搜索",
       "type": 3,
       "api": "csp_Paper",
       "searchable": 1,
@@ -101,7 +101,7 @@
     },
     {
       "key": "易搜",
-      "name": "易搜搜索",
+      "name": "🔍易搜搜索",
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
@@ -111,7 +111,7 @@
     },
     {
       "key": "盤搜",
-      "name": "盘搜搜索",
+      "name": "🔍盘搜搜索",
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
@@ -121,7 +121,7 @@
     },
     {
       "key": "UP雲搜",
-      "name": "云搜搜索",
+      "name": "🔍云搜搜索",
       "type": 3,
       "api": "csp_UpYun",
       "searchable": 1,
@@ -131,7 +131,7 @@
     },
     {
       "key": "找資源",
-      "name": "寻找搜索",
+      "name": "🔍寻找搜索",
       "type": 3,
       "api": "csp_Zhaozy",
       "searchable": 1,
