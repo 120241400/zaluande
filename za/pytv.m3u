@@ -12,14 +12,14 @@
   ],
   "sites": [
     {
-      "key": "AList",
-      "name": "AList",
+      "key": "乐猪影视",
+      "name": "🐷乐猪影视",
       "type": 3,
       "api": "csp_AList",
       "searchable": 1,
       "filterable": 1,
       "switchable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json"
+      "ext": "https://raw.liucn.cc/box/sub/MeowXP/lezhutv.json"
     },
     {
       "key": "哔哩",
