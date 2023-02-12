@@ -17,8 +17,7 @@
       "type": 3,
       "api": "csp_AList",
       "searchable": 1,
-      "filterable": 1,
-      "switchable": 0,
+      "filter
       "ext": "https://raw.liucn.cc/box/sub/MeowXP/lezhutv.json"
     },
     {
