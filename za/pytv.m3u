@@ -128,16 +128,6 @@
       "filterable": 0,
       "switchable": 0,
       "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt"
-    },
-    {
-      "key": "找資源",
-      "name": "🔍寻找搜索",
-      "type": 3,
-      "api": "csp_Zhaozy",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/token.txt$$$yingshi$$$abcd1234"
     }
 
   ]
