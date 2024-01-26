@@ -2,16 +2,16 @@
 body,html {width: 100%;height: 100%;}
 ul {list-style-type: none;}
 a{text-decoration: none;color: #fff2e8;}
-body {background: #4b311f url('../image/bg.jpg') no-repeat top center;}
+body {background: #4b311f url('https://za.120241400.com/moyu/fugu/image/bg.jpg') no-repeat top center;}
 .mian {width: 1000px;overflow: hidden;margin: 0 auto;}
-.nav {background: url('../image/head.png') no-repeat top center;height: 170px;margin-top: 250px;overflow: hidden;position: relative;}
+.nav {background: url('https://za.120241400.com/moyu/fugu/image/head.png') no-repeat top center;height: 170px;margin-top: 250px;overflow: hidden;position: relative;}
 .navs {margin-left: 200px;margin-top: 35px;overflow: hidden;}
 .navs li {float: left;margin-left: 5px;}
 .navs li a {padding: 20px 40px;display: inline-block;font-size: 18px;font-weight: bold;}
 .navs li a:hover {color: #ffff00;}
 .down {display: inline-block;width: 206px;height: 133px;position: absolute;left: 0;top: 0;z-index: 8;}
-.content {background: #ffe8d7 url('../image/content.png') no-repeat top center;position: relative;min-height: 340px;border-left: 3px solid #000;border-right: 3px solid #000;overflow: hidden;position: relative;}
-.foot {background: url('../image/foot.png') no-repeat top center;height: 28px;margin-bottom: 50px;}
+.content {background: #ffe8d7 url('https://za.120241400.com/moyu/fugu/image/content.png') no-repeat top center;position: relative;min-height: 340px;border-left: 3px solid #000;border-right: 3px solid #000;overflow: hidden;position: relative;}
+.foot {background: url('https://za.120241400.com/moyu/fugu/image/foot.png') no-repeat top center;height: 28px;margin-bottom: 50px;}
 .txt {padding: 20px 60px;}
 h3{margin-bottom: 20px;}
 h3 img {margin-right: 10px;position: relative;top: 7px;}
