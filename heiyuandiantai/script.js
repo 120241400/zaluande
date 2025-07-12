@@ -1,7 +1,7 @@
-var song = new Audio;
+﻿var song = new Audio;
 var isStopped = true;
 var currentSong = 0;
-var playlist = ["http://live.ximalaya.com/radio-first-page-app/live/1011/64.m3u8?/忘情一台","http://live.ximalaya.com/radio-first-page-app/live/53/64.m3u8?/忘情二台","http://live.ximalaya.com/radio-first-page-app/live/538/64.m3u8?/忘情三台","http://live.ximalaya.com/radio-first-page-app/live/794/64.m3u8?/忘情四台","http://live.ximalaya.com/radio-first-page-app/live/2125/64.m3u8?/忘情五台","http://live.ximalaya.com/radio-first-page-app/live/802/64.m3u8?/忘情六台","http://live.ximalaya.com/radio-first-page-app/live/608/64.m3u8?/忘情七台","http://live.ximalaya.com/radio-first-page-app/live/708/64.m3u8?/忘情八台"];
+var playlist = ["https://lhttp.qtfm.cn/live/20207761/64k.mp3?/忘情一台","hhttps://lhttp-hw.qtfm.cn/live/4804/64k.mp3?/忘情二台","https://lhttp-hw.qtfm.cn/live/273/64k.mp3?/忘情三台","https://lhttp-hw.qtfm.cn/live/274/64k.mp3?/忘情四台","https://lhttp-hw.qtfm.cn/live/1223/64k.mp3?/忘情五台","https://lhttp-hw.qtfm.cn/live/5022107/64k.mp3?/忘情六台","https://lhttp-hw.qtfm.cn/live/20240/64k.mp3?/忘情七台","https://lhttp-hw.qtfm.cn/live/20210755/64k.mp3?/忘情八台"];
 var playlistVisible = false;
 
 function skip(to) {
